@@ -214,7 +214,6 @@ A:hover {
              #cf23cf, #eedd44);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    transform: translateY(-190px);
     text-transform: uppercase;
 }
 .githublogo{
