@@ -274,6 +274,9 @@ nav ul li a:hover{
 
 .Youtube{
     background: #000000;
+    text-align: center;
+    text-space: 20px;
+    transform: translateY(30px);
 }
 .yt{
     background: #000000;
@@ -283,7 +286,28 @@ nav ul li a:hover{
     color: #ffffff;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    transform: translateY(30px);
 
+}
+.videos{
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    word-spacing: 70px;
+}
+.videos::before {
+    display: block;
+    content: "";
+}
+.if{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    border: 0;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
 }
 
