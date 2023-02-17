@@ -196,6 +196,31 @@ nav ul li a:hover{
     margin-left: 300px;
 
 }
+.element {
+    text-orientation: mixed;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    color: #751212;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translate(-70px,180px);
+}
+.MY{
+    text-orientation: mixed;
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    color: #601111;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.What{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    width: 20px;
+    transform: translate(160px,-355px);
+}
+
 
 
 
@@ -226,6 +251,8 @@ nav ul li a:hover{
     margin-left: 90px;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 40px;
+    padding-bottom: 180px;
 }
 .info{
     color: #a2a2a2;
@@ -234,7 +261,7 @@ nav ul li a:hover{
     width: 50%;
     justify-content: center;
     margin-left: 600px;
-    transform: translateY(-60px);
+    transform: translateY(-55px);
 }
 .info a{
     color: #ffffff;
@@ -253,7 +280,47 @@ nav ul li a:hover{
     color: #ffffff;
     margin-left: 90px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
 }
+.Web{
+    width: 190px;
+    height:185px;
+    background: red;
+    transform: translate(400px,-550px);
+    border-radius: 30px;
+
+}
+.Web p{
+    color: #ffffff;
+    font-size: 20px;
+    background: transparent;
+    transform: translate(10px,50px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.WD{
+    color: white;
+    font-size: 20px;
+    background: transparent;
+    transform: translate(30px,120px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Ml{
+    transform: translate(700px,-732px);
+}
+.Ml img{
+    border-radius: 30px;
+}
+.ML{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateX(90px);
+}
+
+
+
+
+
+
 
 
 
@@ -308,6 +375,6 @@ nav ul li a:hover{
     z-index: 10;
     border: 0;
     -webkit-border-radius: 20px;
-    border-radius: 20px;
+    border-radius: 40px;
 }
 
