@@ -85,6 +85,27 @@ body{
     font-size: 20px;
     font-weight: 400;
 }
+.Subs{
+    margin-left: 300px;
+    background: white;
+    transform: translateY(-100px);
+}
+.Subs p{
+    color: #000000;
+    font-weight: 600;
+    font-size: 21px;
+    font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+}
+.Subs p a{
+    background: transparent;
+}
+.Subs a i{
+    background: transparent;
+    color: red;
+    transform: translateX(10px);
+}
+
 
 
 nav{
@@ -169,14 +190,30 @@ nav ul li a:hover{
 
 }
 .sphere_black{
-    height: 210px;
-    width: 210px;
+    height: 240px;
+    width: 240px;
     border-radius: 50%;
     font-size: 500%;
     display: inline-block;
     margin: 5%;
-    transform: translate(600px,-100px);
+    transform: translate(570px,-100px);
 }
+.image-cropper {
+    width: 210px;
+    height: 210px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    transform: translate(1030px,-500px);
+}
+.profile-pic {
+    height: 210px;
+    width: 210px;
+}
+
+
+
+
 .sphere::after {
     content: '';
     height: 45%;
@@ -341,13 +378,13 @@ nav ul li a:hover{
 }
 
 .Youtube{
-    background: #000000;
+    background: #ffffff;
     text-align: center;
     text-space: 20px;
     transform: translateY(30px);
 }
 .yt{
-    background: #000000;
+    background: #ffffff;
     text-decoration: none;
     font-size: 60px;
     font-weight: 500;
@@ -363,6 +400,7 @@ nav ul li a:hover{
     -webkit-border-radius: 20px;
     border-radius: 20px;
     word-spacing: 70px;
+    background: white;
 }
 .videos::before {
     display: block;
@@ -378,4 +416,15 @@ nav ul li a:hover{
     -webkit-border-radius: 20px;
     border-radius: 40px;
 }
-
+.Hobbies{
+    justify-content: center;
+    background: #ffffff;
+    text-align: center;
+    padding-top:80px;
+}
+.Hobbies img{
+    border-radius: 30px;
+}
+.Images{
+    text-align: center;
+}
