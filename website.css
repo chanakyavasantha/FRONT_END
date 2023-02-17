@@ -237,7 +237,7 @@ nav ul li a:hover{
     text-orientation: mixed;
     writing-mode: vertical-lr;
     rotate: 180deg;
-    color: #751212;
+    color: #c51010;
     font-size: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transform: translate(-70px,180px);
@@ -246,7 +246,7 @@ nav ul li a:hover{
     text-orientation: mixed;
     writing-mode: vertical-lr;
     rotate: 180deg;
-    color: #601111;
+    color: #e10202;
     font-size: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -289,7 +289,7 @@ nav ul li a:hover{
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 40px;
-    padding-bottom: 180px;
+    padding-bottom: 100px;
 }
 .info{
     color: #a2a2a2;
@@ -303,13 +303,78 @@ nav ul li a:hover{
 .info a{
     color: #ffffff;
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 50%;
     justify-content: center;
 }
 .info a:hover{
     color: orangered;
 }
+.Edu{
+    width: 80px;
+    background: transparent;
+    margin-left: 90px;
+    padding-bottom: 100px;
+}
+.Edu p{
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Edu img{
+    border-radius: 30px;
+    transform: translateX(-230px);
+}
+.VB{
+    height: 400px;
+    width: 15px;
+    background: transparent;
+    border: 2px white solid;
+    transform: translate(600px,-480px);
+}
+.dot1{
+    background: red;
+    height: 20px;
+    width: 40px;
+    font-size: 500%;
+    display: inline-block;
+    margin: 5%;
+    border-radius: 5px;
+    transform: translate(-14px,20px);
+}
+.dot2{
+    background: red;
+    height: 20px;
+    width: 40px;
+    font-size: 500%;
+    display: inline-block;
+    margin: 5%;
+    border-radius: 5px;
+    transform: translate(-14px,60px);
+}
+.dot3{
+    background: red;
+    height: 20px;
+    width: 40px;
+    font-size: 500%;
+    display: inline-block;
+    margin: 5%;
+    border-radius: 5px;
+    transform: translate(-14px,100px);
+}
+.dot4{
+    background: red;
+    height: 20px;
+    width: 40px;
+    font-size: 500%;
+    display: inline-block;
+    margin: 5%;
+    border-radius: 5px;
+    transform: translate(-14px,140px);
+}
+
+
+
 .Skills{
     text-decoration: none;
     font-size: 50px;
@@ -419,8 +484,8 @@ nav ul li a:hover{
 .Hobbies{
     justify-content: center;
     background: #ffffff;
-    text-align: center;
     padding-top:80px;
+    padding-left: 140px;
 }
 .Hobbies img{
     border-radius: 30px;
@@ -428,3 +493,52 @@ nav ul li a:hover{
 .Images{
     text-align: center;
 }
+.Hobbies span {
+    background: transparent;
+    font-size: 250px;
+    content: "\201C";
+}
+.Quote{
+    width: 230px;
+    height: 210px;
+    background: transparent;
+    border: black 2px solid;
+    border-radius: 30px;
+    justify-content: center;
+    transform: translate(800px,-800px);
+}
+.Quote p{
+    padding-top: 20px;
+    background: transparent;
+    font-family: "Bell MT";
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.tag{
+    background: transparent;
+    transform: translate(800px,-650px);
+}
+.Quote2{
+    width: 400px;
+    height: 220px;
+    background: transparent;
+    border: black 2px solid;
+    border-radius: 30px;
+    justify-content: center;
+    transform: translate(800px,-1020px);
+    font-weight: 600;
+}
+.Quote2 p{
+    padding-top: 20px;
+    background: transparent;
+    font-family: "Bell MT";
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.tag1{
+    background: transparent;
+    transform: translate(1100px,-850px);
+}
+
