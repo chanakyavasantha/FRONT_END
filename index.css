@@ -1,0 +1,395 @@
+/* style Sheet For nav Bar  section */
+
+.nav-item a{
+    color: #ffffff;
+}
+.nav-item a:hover{
+    color: red;
+}
+.dropdown-menu{
+    background: #212529;
+}
+.container-fluid h1{
+    font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Style Sheet For Intro Section */
+
+
+.short{
+    background: white;
+    color: #000000;
+    font-size: 20px;
+    font-family: "Bell MT";
+    width: 45%;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.First{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+}
+.intro{
+    margin: 50px;
+    justify-content: center;
+}
+.sphere_red {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    font-size: 500%;
+    display: inline-block;
+}
+.sphere_red {
+    background-color: red;
+}
+.sphere_black{
+    background: black;
+}
+.sphere_black{
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    font-size: 500%;
+    display: inline-block;
+    margin: 5%;
+}
+.Img{
+    width: 210px;
+    height: 210px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    transform: translate(36px,-252px);
+}
+
+
+/* Socials Section in Intro */
+
+
+.Subs{
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Subs p{
+    color: #000000;
+    font-weight: 600;
+    font-size: 21px;
+    font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+}
+.Subs p a{
+    background: transparent;
+}
+.Subs a i{
+    background: transparent;
+    color: red;
+}
+.Subs a{
+    color: transparent;
+    background: transparent;
+}
+.email{
+    background: white;
+}
+.email p{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+}
+.email a{
+    background: white;
+    color: black;
+    font-family: "Bell MT";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.github{
+    background: white;
+}
+.github p{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+}
+.github p a{
+    background: transparent;
+}
+.github a i{
+    background: white;
+    color: black;
+}
+.github a{
+    color: transparent;
+    background: transparent;
+}
+
+.small_red {
+    background-color: red;
+}
+.small_red{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 500%;
+    display: inline-block;
+    margin: 5%;
+}
+.small_red p{
+    background: transparent;
+    font-size: 20px;
+    font-family: "Bell MT";
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+/* Style Sheet For My Self Section */
+
+
+.MySelf{
+    background: black;
+    padding: 20px;
+}
+.info{
+    color: #a2a2a2;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+.MySelf h2{
+    color: white;
+}
+.Clg{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+a:hover{
+    color: red;
+}
+
+
+/*Style Sheet For Education And Experience Section  */
+
+
+.Edu{
+    padding-top: 40px;
+    background: black;
+}
+.Edu h2{
+    color: white;
+}
+
+/* Style Sheet For Time Line*/
+/* The actual timeline (the vertical ruler) */
+.main-timeline-4 {
+    position: relative;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-4::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    background-color: #bbb;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around content */
+.timeline-4 {
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-4::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -11px;
+    background-color: #bbb;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left-4 {
+    padding: 0px 40px 20px 0px;
+    left: 0;
+}
+
+/* Place the container to the right */
+.right-4 {
+    padding: 0px 0px 20px 40px;
+    left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left-4::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    right: 30px;
+    border: medium solid rgba(37, 117, 252, 1);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgba(37, 117, 252, 1);
+}
+
+/* Add arrows to the right container (pointing left) */
+.right-4::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: 30px;
+    border: medium solid rgb(255, 255, 255);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(255, 255, 255) transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right-4::after {
+    left: -14px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .main-timeline-4::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .timeline-4 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline-4::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left-4::after,
+    .right-4::after {
+        left: 18px;
+    }
+
+    .left-4::before {
+        right: auto;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right-4 {
+        left: 0%;
+    }
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(
+            to right,
+            rgba(106, 17, 203, 1),
+            rgba(37, 117, 252, 1)
+    );
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(
+            to right,
+            rgba(106, 17, 203, 1),
+            rgba(37, 117, 252, 1)
+    );
+}
+
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #ff0000;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(
+            to left,
+            rgb(255, 0, 0),
+            rgb(255, 0, 0)
+    );
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(
+            to left,
+            rgb(255, 0, 0),
+            rgb(255, 0, 0)
+    );
+}
+
+/* Style Sheet For Skills Section */
+.skills{
+    background: white;
+}
+.skills h2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+/* Style Sheet for How I Do Section */
+.Project{
+    background: black;
+    color: white;
+    background-position:center;
+    background-image:url('images/projects.png');
+    background-size: 1600px 1000px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+
+
+
+
+/* Style Sheet For Hobbies Section */
+.Hobbies{
+    padding: 30px;
+    background: white;
+}
+.itachi{
+    border-radius: 50px;
+}
+h3,h2{
+    color: #ffffff;
+}
+
+
+
+
+
