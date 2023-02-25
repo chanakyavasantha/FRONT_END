@@ -1,0 +1,442 @@
+
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* style Sheet For nav Bar  section */
+
+.nav-item a{
+    color: #ffffff;
+}
+.nav-item a:hover{
+    color: red;
+}
+.dropdown-menu{
+    background: #212529;
+}
+.container-fluid h1{
+    font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Style Sheet For Intro Section */
+
+.intro h5{
+    font-family: "Bell MT";
+    text-align: center;
+}
+.intro{
+    padding-top: 100px;
+    margin: 100px;
+    justify-content: center;
+}
+.sphere_red {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    font-size: 500%;
+    display: inline-block;
+}
+.sphere_red {
+    background-color: red;
+}
+.sphere_black{
+    background: black;
+}
+.sphere_black{
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    font-size: 500%;
+    display: inline-block;
+    margin: 5%;
+}
+.Img{
+    width: 210px;
+    height: 210px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    transform: translate(36px,-252px);
+}
+
+
+/* Socials Section in Intro */
+
+
+.Subs{
+    background: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Subs p{
+    color: #000000;
+    font-weight: 600;
+    font-size: 21px;
+    font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+}
+.Subs p a{
+    background: transparent;
+}
+.Subs a i{
+    background: transparent;
+    color: red;
+}
+.Subs a{
+    color: transparent;
+    background: transparent;
+}
+.email{
+    background: white;
+}
+.email p{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+}
+.email a{
+    background: white;
+    color: black;
+    font-family: "Bell MT";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.github{
+    background: white;
+}
+.github p{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Pacifico', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+}
+.github p a{
+    background: transparent;
+}
+.github a i{
+    background: white;
+    color: black;
+}
+.github a{
+    color: transparent;
+    background: transparent;
+}
+
+.small_red {
+    background-color: red;
+}
+.small_red{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: 500%;
+    display: inline-block;
+    margin: 5%;
+}
+.small_red p{
+    background: transparent;
+    font-size: 20px;
+    font-family: "Bell MT";
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+/* Style Sheet For My Self Section */
+
+.MySelf{
+    background: black;
+    padding: 20px;
+}
+.info{
+    color: #a2a2a2;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+.MySelf h2{
+    color: white;
+}
+.Clg{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+a:hover{
+    color: red;
+}
+
+
+/*Style Sheet For Education And Experience Section  */
+
+.Edu{
+    padding-top: 40px;
+    background: black;
+}
+.Edu h1{
+    color: #ffffff;
+    padding: 30px;
+}
+.Edu h2{
+    color: black;
+}
+
+/* Style Sheet For Time Line*/
+.experience {
+    position: relative;
+    padding: 45px 0 15px 0;
+}
+
+.experience .timeline {
+    position: relative;
+    width: 100%;
+}
+
+.experience .timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: #EF233C;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.experience .timeline .timeline-item {
+    position: relative;
+    background: inherit;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.experience .timeline .timeline-item.left {
+    left: 0;
+    padding-right: 30px;
+}
+
+.experience .timeline .timeline-item.right {
+    left: 50%;
+    padding-left: 30px;
+}
+
+.experience .timeline .timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 48px;
+    right: -8px;
+    background: #ffffff;
+    border: 2px solid #EF233C;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.experience .timeline .timeline-item.right::after {
+    left: -8px;
+}
+
+.experience .timeline .timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 46px;
+    right: 10px;
+    z-index: 1;
+    border: 10px solid;
+    border-color: transparent transparent transparent #dddddd;
+}
+
+.experience .timeline .timeline-item.right::before {
+    left: 10px;
+    border-color: transparent #dddddd transparent transparent;
+}
+
+.experience .timeline .timeline-date {
+    position: absolute;
+    width: 100%;
+    top: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #EF233C;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.experience .timeline .timeline-item.left .timeline-date {
+    text-align: left;
+    left: calc(100% + 55px);
+}
+
+.experience .timeline .timeline-item.right .timeline-date {
+    text-align: right;
+    right: calc(100% + 55px);
+}
+
+.experience .timeline .timeline-text {
+    padding: 30px;
+    background: #ffffff;
+    position: relative;
+    border-right: 5px solid #dddddd;
+    box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+}
+
+.experience .timeline .timeline-item.right .timeline-text {
+    border-right: none;
+    border-left: 5px solid #dddddd;
+}
+
+.experience .timeline .timeline-text h2 {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.experience .timeline .timeline-text h4 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.experience .timeline .timeline-text p {
+    margin: 0;
+    font-size: 16px;
+}
+
+@media (max-width: 767.98px) {
+    .experience .timeline::after {
+        left: 8px;
+    }
+
+    .experience .timeline .timeline-item {
+        width: 100%;
+        padding-left: 38px;
+    }
+
+    .experience .timeline .timeline-item.left {
+        padding-right: 0;
+    }
+
+    .experience .timeline .timeline-item.right {
+        left: 0%;
+        padding-left: 38px;
+    }
+
+    .experience .timeline .timeline-item.left::after,
+    .experience .timeline .timeline-item.right::after {
+        left: 0;
+    }
+
+    .experience .timeline .timeline-item.left::before,
+    .experience .timeline .timeline-item.right::before {
+        left: 18px;
+        border-color: transparent #dddddd transparent transparent;
+    }
+
+    .experience .timeline .timeline-item.left .timeline-date,
+    .experience .timeline .timeline-item.right .timeline-date {
+        position: relative;
+        top: 0;
+        right: auto;
+        left: 0;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .experience .timeline .timeline-item.left .timeline-text,
+    .experience .timeline .timeline-item.right .timeline-text {
+        border-right: none;
+        border-left: 5px solid #dddddd;
+    }
+}
+
+
+
+
+/* Style Sheet For Skills Section */
+.skills{
+    background: white;
+    padding: 40px;
+}
+.skills h2{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills .h5{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.Semi{
+    height: 125px;
+    width: 230px;
+    border-radius: 150px 150px 0 0;
+    background-color: #ff0000;
+    rotate: 270deg;
+}
+.Semi img{
+    rotate: 90deg;
+    transform: translate(15px,10px);
+}
+small a:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+/* Style Sheet for How I Do Section */
+.Project{
+    background: black;
+    color: white;
+    background-position:center;
+    background-image:url('images/projects.png');
+    background-size: 1600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 60px;
+}
+
+
+
+
+/* Style Sheet For Hobbies Section */
+.Hobbies{
+    padding: 30px;
+    background: white;
+}
+.itachi{
+    border-radius: 50px;
+}
+h3,h2{
+    color: #ffffff;
+}
+.if{
+    height: 100%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+
+
+
+
